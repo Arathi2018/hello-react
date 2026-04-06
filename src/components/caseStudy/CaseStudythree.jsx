@@ -36,20 +36,23 @@ function CaseStudyThree() {
                 </div>
 
                 <h6 className="text-[18px] text-[#999999] font-normal mb-2 mt-[35px]">Solutions</h6>
-                <p className="text-[16px] text-white font-normal text-base/7 mb-4">The Product Detail screen tackles hidden charges head-on by displaying a full cost breakdown base price, packaging fee, and delivery fee directly on the product page, so users know the exact total before adding anything to their cart.</p>
+                <p className="text-[16px] text-white font-normal text-base/7 mb-4">A centralized dashboard providing a real-time snapshot of tasks, leave, active projects, and priorities, enabling quick decisions and better planning through a clear, intuitive view.</p>
                 
                 <img src="/images/stage11.jpg" alt="Case Study Image" className="w-full h-full mb-6"/>
 
-                <h6 className="text-[18px] text-[#999999] font-normal mb-2 mt-[35px]">Food Delivery </h6>
-                <p className="text-[16px] text-white font-normal text-base/7 mb-4">The Order Tracking screen keeps users fully informed throughout the delivery journey showing a live map view, a step-by-step order progress timeline, and delivery partner details all in one place. When a delay occurs, users receive an instant notification with a clear reason and an updated ETA, eliminating the frustration of waiting without explanation. A prominent Help & Support button ensures that if users need assistance at any point during the delivery, help is just one tap away.</p>
+                <h6 className="text-[18px] text-[#999999] font-normal mb-2 mt-[35px]">Employee List</h6>
+                <p className="text-[16px] text-white font-normal text-base/7 mb-4">A structured list view displaying employees along with their departments and employee IDs, enabling easy access, quick identification, and efficient management of workforce details.</p>
                 
                 <img src="/images/stage12.jpg" alt="Case Study Image" className="w-full h-full mb-6"/>
 
-                <h6 className="text-[18px] text-[#999999] font-normal mb-2 mt-[35px]">AI Food Assistant</h6>
-                <p className="text-[16px] text-white font-normal text-base/7 mb-4">The AI Food Assistant goes beyond generic chatbot responses by offering personalized food recommendations based on the user's preferences and past orders making it easy to discover new dishes, get tailored suggestions, and add them to cart instantly, all within a single conversational screen.</p>
+                <h6 className="text-[18px] text-[#999999] font-normal mb-2 mt-[35px]">Project List</h6>
+                <p className="text-[16px] text-white font-normal text-base/7 mb-4">A structured list view displaying each project with its name, assigned project manager, and team members, enabling clear visibility and efficient project tracking.</p>
                 
                 <img src="/images/stage13.jpg" alt="Case Study Image" className="w-full h-full mb-6"/>
-                <p className="text-[16px] text-white font-normal text-base/7 mb-4">The result is a food delivery experience built on transparency, trust, and genuine responsiveness one that respects the user's time, keeps them informed at every step, and ensures help is always within reach when things don't go as planned.</p>
+
+                <h6 className="text-[18px] text-[#999999] font-normal mb-2 mt-[35px]">Timesheet</h6>
+
+                <p className="text-[16px] text-white font-normal text-base/7 mb-4">A detailed view showing logged hours for each task along with total working hours, enabling users to track time spent and monitor overall productivity.</p>
                 <img src="/images/stage14.jpg" alt="Case Study Image" className="w-full h-full mb-6"/>
 
 
@@ -59,7 +62,7 @@ function CaseStudyThree() {
                         <a href="https://www.linkedin.com/in/arathi-as" target="_blank" rel="noopener noreferrer" className="text-white text-[16px] text-[#007FFF] font-normal text-xl">LinkedIn</a>
                        <a href="mailto:asarathi743@gmail.com" className="text-white text-[16px] text-[#007FFF] font-normal text-xl">asarathi743@gmail.com</a>
                     </div>
-                   <Link to="/case-study/two" className="flex items-center gap-2 border border-[#484848] bg-[#1A1A1A] px-4 py-3 rounded-full text-white text-[16px] font-normal">View Next <GoArrowUpRight /></Link>
+                   <Link to="/case-study/student-monitoring-app" className="flex items-center gap-2 border border-[#484848] bg-[#1A1A1A] px-4 py-3 rounded-full text-white text-[16px] font-normal">View Next <GoArrowUpRight /></Link>
                 </div>
             </div>
         </div>
