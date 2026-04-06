@@ -4,6 +4,7 @@ import UserProfile from "./components/UserProfile"
 import GradientCover from "./components/Card"
 import CaseStudyOne from "./components/caseStudy/CaseStudyone"
 import CaseStudyTwo from "./components/caseStudy/CaseStudytwo"
+import CaseStudyThree from "./components/caseStudy/CaseStudythree"
 import About from "./components/about"
 
 function App() {
@@ -17,8 +18,9 @@ function App() {
               <GradientCover />
             </div>
           } />
-          <Route path="/case-study/one" element={<CaseStudyOne />} />
-          <Route path="/case-study/two" element={<CaseStudyTwo />} />
+          <Route path="/case-study/student-monitoring-app" element={<CaseStudyOne />} />
+          <Route path="/case-study/food-delivery-app" element={<CaseStudyTwo />} />
+          <Route path="/case-study/employee-management" element={<CaseStudyThree />} />
           <Route path="/about" element={<About />} />
         </Routes>
     </>

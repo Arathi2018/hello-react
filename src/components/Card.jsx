@@ -6,36 +6,36 @@ import { Link } from 'react-router-dom';
 const cardItems = [
   {
     id: 1,
-    title: " School Student Monitoring App",
-    description: "A mobile app bridging the gap between school and home giving parents real-time visibility into their child's daily activities and notifications.",
+    title: "Student Monitoring App",
+    description: "A mobile app connecting school and home with real-time child updates.",
     image: "/images/card-image.jpg",
     alt: "image description",
-    url: '/case-study/one'
+    url: '/case-study/student-monitoring-app'
   },
   {
     id: 2,
-    title: "Food Delivery App Redesign",
-    description: "A food delivery app redesign focused on pricing transparency and smarter customer support rebuilding user trust at every step.",
+    title: "Food Delivery App",
+    description: "A food delivery app redesign focused on transparent pricing and smarter support.",
     image: "/images/card-image1.jpg",
     alt: "image description 2",
-    url: '/case-study/two'
+    url: '/case-study/food-delivery-app'
   },
   {
     id: 3,
-    title: "Heading",
-    description: "UI/UX Designer with 3+ years of experience building intuitive, accessible web applications for B2B enterprises.",
+    title: "Scan Track",
+    description: "An employee management application for tracking and real-time performance insights.",
     image: "/images/card-image2.jpg",
     alt: "image description 2",
-    url:  '/case-study/three'
+    url:  '/case-study/employee-management'
   },
-  {
-    id: 4,
-    title: "Heading",
-    description: "UI/UX Designer with 3+ years of experience building intuitive, accessible web applications for B2B enterprises.",
-    image: "/images/card-image3.jpg",
-    alt: "image description 2",
-    url:  '/case-study/four'
-  },
+  // {
+  //   id: 4,
+  //   title: "Heading",
+  //   description: "UI/UX Designer with 3+ years of experience building intuitive, accessible web applications for B2B enterprises.",
+  //   image: "/images/card-image3.jpg",
+  //   alt: "image description 2",
+  //   url:  '/case-study/four'
+  // },
 ];
 function GradientCover() {
   return (

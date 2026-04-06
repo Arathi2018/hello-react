@@ -4,7 +4,7 @@ function UserProfile(){
     return (
         <div className="flex flex-row items-center my-5">
             <div className="min-w-[100px] w-[100px] h-[100px] bg-transparent rounded-full flex items-center justify-center mr-4">
-                <img src="/src/assets/images/Arathi.png" alt="User Avatar" className="rounded-full w-full h-full font-normal text-lg"/>
+                <img src="/images/Arathi.png" alt="User Avatar" className="rounded-full w-full h-full font-normal text-lg"/>
             </div>
             <div className="flex flex-col">
                 <div className="flex flex-row justify-between items-center gap-2 mb-1">

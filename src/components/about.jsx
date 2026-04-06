@@ -35,7 +35,7 @@ function About() {
         <div className="max-w-3/4 w-full mx-auto py-[20px] text-white">
             <div className="flex flex-col items-start my-5">
                 <div className="min-w-[100px] w-[100px] h-[100px] bg-transparent rounded-full flex items-center justify-center mb-4">
-                    <img src="/src/assets/images/Arathi.png" alt="User Avatar" className="rounded-full w-full h-full font-normal text-lg"/>
+                    <img src="/images/Arathi.png" alt="User Avatar" className="rounded-full w-full h-full font-normal text-lg"/>
                 </div>
                 <div className="flex flex-col">
                     <div className="flex gap-2 items-center">
