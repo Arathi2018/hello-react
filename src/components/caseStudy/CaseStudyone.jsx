@@ -6,7 +6,7 @@ function CaseStudyOne() {
     return (
         <div className="text-3xl font-bold text-white w-full">
             <div className="w-full !h-full max-h-[450px] mb-6 justify-items-center">
-                <img src="/src/assets/images/banner.jpg" alt="Case Study Image" className="w-full h-full mb-6"/>
+                <img src="/images/banner.jpg" alt="Case Study Image" className="w-full h-full mb-6"/>
             </div>
             <div className="container max-w-3/4 w-full mx-auto">
                 <div className="flex flex-col gap-2 items-start mb-4 border-b border-[#343434] pb-4">
@@ -29,21 +29,21 @@ function CaseStudyOne() {
                 <h6 className="text-[18px] text-[#999999] font-normal mb-2 mt-[35px]">Solutions</h6>
                 <p className="text-[16px] text-white font-normal text-base/7 mb-4">The News and Circular screens keep parents consistently informed about everything happening at school from meetings and academic registrations to events and official circulars. Category tags and date indicators make updates easy to scan, while the Circular section delivers official school communications with downloadable options, ensuring no important announcement ever goes unnoticed.</p>
                 
-                <img src="/src/assets/images/stage3.jpg" alt="Case Study Image" className="w-full h-full mb-6"/>
+                <img src="/images/stage3.jpg" alt="Case Study Image" className="w-full h-full mb-6"/>
 
                 <h6 className="text-[18px] text-[#999999] font-normal mb-2 mt-[35px]">Task Management</h6>
                 <p className="text-[16px] text-white font-normal text-base/7 mb-4">The core intent behind this screen was to eliminate the dependency on children remembering to communicate their assignments to their parents, empowering them to stay proactively involved in their child's academic journey and reducing missed deadlines through a clean, scannable, and intuitive layout.</p>
                 
-                <img src="/src/assets/images/stage2.jpg" alt="Case Study Image" className="w-full h-full mb-6"/>
+                <img src="/images/stage2.jpg" alt="Case Study Image" className="w-full h-full mb-6"/>
 
                 <h6 className="text-[18px] text-[#999999] font-normal mb-2 mt-[35px]"> Examination & Report Card Screen</h6>
                 <p className="text-[16px] text-white font-normal text-base/7 mb-4">The Examination screen gives parents a comprehensive view of their child's upcoming exams listing each subject with its date, time, venue, and syllabus portions, so parents can plan ahead and support their child's preparation effectively. An annual exam alert banner ensures critical exam schedules are never missed. The Report Card screen consolidates the child's academic performance into one clean, easy-to-read view displaying key highlights like grade, class rank, and attendance percentage alongside detailed student information, giving parents a complete picture of their child's academic standing at a glance.</p>
                 
-                <img src="/src/assets/images/stage4.jpg" alt="Case Study Image" className="w-full h-full mb-6"/>
+                <img src="/images/stage4.jpg" alt="Case Study Image" className="w-full h-full mb-6"/>
 
                 <h6 className="text-[18px] text-[#999999] font-normal mb-2 mt-[35px]">Design System</h6>
                 <p className="text-[16px] text-white font-normal text-base/7 mb-4">The app was built on a scalable design system with a cohesive blue-anchored color palette, clean hierarchical typography, and standardized reusable components ensuring visual consistency across every screen while streamlining the developer handoff process.</p>
-                 <img src="/src/assets/images/stage5.jpg" alt="Case Study Image" className="w-full h-full mb-6"/>
+                 <img src="/images/stage5.jpg" alt="Case Study Image" className="w-full h-full mb-6"/>
 
                 <div className="flex flex-row gap-2 items-center justify-between mb-4 pt-4 border-t border-[#343434] pb-4">
                     <div className="flex flex-col gap-2 items-start mb-2">

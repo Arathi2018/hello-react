@@ -8,7 +8,7 @@ const cardItems = [
     id: 1,
     title: " School Student Monitoring App",
     description: "A mobile app bridging the gap between school and home giving parents real-time visibility into their child's daily activities and notifications.",
-    image: "/src/assets/images/card-image.jpg",
+    image: "/images/card-image.jpg",
     alt: "image description",
     url: '/case-study/one'
   },
@@ -16,7 +16,7 @@ const cardItems = [
     id: 2,
     title: "Food Delivery App Redesign",
     description: "A food delivery app redesign focused on pricing transparency and smarter customer support rebuilding user trust at every step.",
-    image: "/src/assets/images/card-image1.jpg",
+    image: "/images/card-image1.jpg",
     alt: "image description 2",
     url: '/case-study/two'
   },
@@ -24,7 +24,7 @@ const cardItems = [
     id: 3,
     title: "Heading",
     description: "UI/UX Designer with 3+ years of experience building intuitive, accessible web applications for B2B enterprises.",
-    image: "/src/assets/images/card-image2.jpg",
+    image: "/images/card-image2.jpg",
     alt: "image description 2",
     url:  '/case-study/three'
   },
@@ -32,7 +32,7 @@ const cardItems = [
     id: 4,
     title: "Heading",
     description: "UI/UX Designer with 3+ years of experience building intuitive, accessible web applications for B2B enterprises.",
-    image: "/src/assets/images/card-image3.jpg",
+    image: "/images/card-image3.jpg",
     alt: "image description 2",
     url:  '/case-study/four'
   },
