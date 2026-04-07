@@ -1,6 +1,9 @@
 import { IoIosCheckmarkCircle } from "react-icons/io"
 import ListCards from "./ListCards"
 import { GoArrowUpRight } from "react-icons/go";
+import { FaInstagram } from "react-icons/fa";
+import { FaBehance } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 
 const listcard = [
     {
@@ -44,6 +47,23 @@ function About() {
                     </div>
                     <p className="text-[16px] text-white font-normal text-base/7">Hi, I'm Arathi, a UI/UX Designer & Developer passionate about solving complex B2B challenges through clean, accessible design. With 3+ years of experience, I bridge the gap between design and development, working across the full design lifecycle from user research and wireframing to high-fidelity Figma prototypes and production ready interfaces. I take pride in delivering design solutions that reduce friction, improve usability, and align with measurable business outcomes, ensuring every product I build is both visually refined and technically solid.</p>
                 </div>
+                <div className="flex flex-wrap gap-5 items-center my-[10px] mt-[20px]">
+                    <a href="https://www.linkedin.com/in/arathi-as" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 border border-[#484848] bg-[#1A1A1A] px-4 py-3 rounded-2xl md:rounded-full text-white text-[16px] font-normal">
+                        <FaLinkedin className="block md:hidden transition-transform duration-300 hover:scale-110" size={24} />
+                        <span className="md:block hidden">LinkedIn</span> 
+                        <GoArrowUpRight className="md:block hidden" />
+                    </a>
+                    <a href="https://www.behance.net/arathias" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 border border-[#484848] bg-[#1A1A1A] px-4 py-3 rounded-2xl md:rounded-full text-white text-[16px] font-normal">
+                        <FaBehance className="block md:hidden transition-transform duration-300 hover:scale-110" size={24} />
+                        <span className="md:block hidden">Behance</span> 
+                        <GoArrowUpRight className="md:block hidden" />
+                    </a>
+                    <a href="https://www.instagram.com/art.aarthi_/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 border border-[#484848] bg-[#1A1A1A] px-4 py-3 rounded-2xl md:rounded-full text-white text-[16px] font-normal">
+                        <FaInstagram className="block md:hidden transition-transform duration-300 hover:scale-110" size={24} />
+                        <span className="md:block hidden">Instagram</span> 
+                        <GoArrowUpRight className="md:block hidden" />
+                    </a>
+                </div>
             </div>
             <div className="mb-[20px]">
                 <div className="flex flex-col gap-2 items-start mb-4 border-b border-[#343434] py-4 pb-2">
@@ -57,11 +77,6 @@ function About() {
                     <h1 className="text-[20px] font-semibold text-white">Education</h1>
                 </div>  
                <ListCards listcard={education} />
-            </div>
-            <div className="flex gap-5 items-center my-[50px]">
-                <a href="https://www.linkedin.com/in/arathi-as" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 border border-[#484848] bg-[#1A1A1A] px-4 py-3 rounded-full text-white text-[16px] font-normal">LinkedIn <GoArrowUpRight /></a>
-                <a href="https://www.behance.net/arathias" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 border border-[#484848] bg-[#1A1A1A] px-4 py-3 rounded-full text-white text-[16px] font-normal">Behance <GoArrowUpRight /></a>
-                <a href="https://www.instagram.com/art.aarthi_/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 border border-[#484848] bg-[#1A1A1A] px-4 py-3 rounded-full text-white text-[16px] font-normal">Instagram <GoArrowUpRight /></a>
             </div>
         </div>
     )

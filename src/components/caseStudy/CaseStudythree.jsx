@@ -23,17 +23,8 @@ function CaseStudyThree() {
                 - Managers found it challenging to monitor team performance and availability in real time<br/>
                 - Employees often felt unclear about task priorities and deadlines, leading to confusion and delays <br/>
                 - Leave management was not transparent, causing overlaps, miscommunication, and planning issues<br/>
-                - Existing systems were perceived as complex and cluttered, reducing usability and adoption<br/>
                 - Users expressed a strong need for a simple, centralized dashboard that provides clear insights into tasks, performance, and availability at a glance
                 </p>
-
-                <h6 className="text-[18px] text-[#999999] font-normal mb-4">Logo & Branding</h6>
-                <div className="flex flex-col w-full h-full mb-6">
-                    <img src="/images/stage21.jpg" alt="Case Study Image" className="w-full h-full "/>
-                    <img src="/images/stage22.jpg" alt="Case Study Image" className="w-full h-full mb-6"/>
-                    <img src="/images/stage23.jpg" alt="Case Study Image" className="w-full h-full"/>
-                    <img src="/images/stage24.jpg" alt="Case Study Image" className="w-full h-full"/>
-                </div>
 
                 <h6 className="text-[18px] text-[#999999] font-normal mb-2 mt-[35px]">Solutions</h6>
                 <p className="text-[16px] text-white font-normal text-base/7 mb-4">A centralized dashboard providing a real-time snapshot of tasks, leave, active projects, and priorities, enabling quick decisions and better planning through a clear, intuitive view.</p>
@@ -56,7 +47,15 @@ function CaseStudyThree() {
                 <img src="/images/stage14.jpg" alt="Case Study Image" className="w-full h-full mb-6"/>
 
 
-                <div className="flex flex-row gap-2 items-center justify-between mb-4 pt-4 border-t border-[#343434] pb-4">
+                <h6 className="text-[18px] text-[#999999] font-normal mb-4">Logo & Branding</h6>
+                <div className="flex flex-col w-full h-full mb-6">
+                    <img src="/images/stage21.jpg" alt="Case Study Image" className="w-full h-full "/>
+                    <img src="/images/stage22.jpg" alt="Case Study Image" className="w-full h-full"/>
+                    <img src="/images/stage23.jpg" alt="Case Study Image" className="w-full h-full"/>
+                    <img src="/images/stage24.jpg" alt="Case Study Image" className="w-full h-full"/>
+                </div>
+
+                <div className="flex flex-col sm:flex-row gap-2 items-start sm:items-center justify-between mb-4 pt-4 border-t border-[#343434] pb-4">
                     <div className="flex flex-col gap-2 items-start mb-2">
                         <p className="text-[16px] text-white font-normal text-xl">If you want to know more details of this project, get in touch!</p>
                         <a href="https://www.linkedin.com/in/arathi-as" target="_blank" rel="noopener noreferrer" className="text-white text-[16px] text-[#007FFF] font-normal text-xl">LinkedIn</a>

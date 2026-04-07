@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react'
 import { Routes, Route } from "react-router-dom"
 import Navbar from "./components/Navbar"
 import UserProfile from "./components/UserProfile"
@@ -6,8 +7,23 @@ import CaseStudyOne from "./components/caseStudy/CaseStudyone"
 import CaseStudyTwo from "./components/caseStudy/CaseStudytwo"
 import CaseStudyThree from "./components/caseStudy/CaseStudythree"
 import About from "./components/about"
+import Loader from "./components/loader"
 
 function App() {
+   const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  // ✅ Show loader first
+  if (loading) {
+    return <Loader />;
+  }
   return(
     <>
        <Navbar/>

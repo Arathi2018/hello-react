@@ -45,7 +45,7 @@ function CaseStudyOne() {
                 <p className="text-[16px] text-white font-normal text-base/7 mb-4">The app was built on a scalable design system with a cohesive blue-anchored color palette, clean hierarchical typography, and standardized reusable components ensuring visual consistency across every screen while streamlining the developer handoff process.</p>
                  <img src="/images/stage5.jpg" alt="Case Study Image" className="w-full h-full mb-6"/>
 
-                <div className="flex flex-row gap-2 items-center justify-between mb-4 pt-4 border-t border-[#343434] pb-4">
+                <div className="flex flex-col sm:flex-row gap-2 items-start sm:items-center justify-between mb-4 pt-4 border-t border-[#343434] pb-4">
                     <div className="flex flex-col gap-2 items-start mb-2">
                         <p className="text-[16px] text-white font-normal text-xl">If you want to know more details of this project, get in touch!</p>
                         <a href="https://www.linkedin.com/in/arathi-as" target="_blank" rel="noopener noreferrer" className="text-white text-[16px] text-[#007FFF] font-normal text-xl">LinkedIn</a>
