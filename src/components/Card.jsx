@@ -34,7 +34,7 @@ function GradientCover() {
     <div className="grid grid-cols-1 md:grid-cols-1 xl:grid-cols-3 gap-5 flex-wrap justify-center">
       {cardItems.map((cardItem) => (
        <Link to={cardItem.url} key={cardItem.id} style={{ textDecoration: 'none' }}>
-        <Card key={cardItem.id} variant="outlined" sx={{ minHeight: '280px', width: '100%' }} className="!border-[#343434] cursor-pointer">
+        <Card key={cardItem.id} variant="outlined" sx={{ minHeight: '280px', width: '100%' }} className="!rounded-[20px] !border-[#343434] cursor-pointer overflow-hidden">
           <CardCover><img src={cardItem.image} loading="lazy" alt={cardItem.alt}/></CardCover>
           <CardCover sx={{background:'linear-gradient(to top, rgba(0,0,0,0.4), rgba(0,0,0,0) 200px), linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0) 300px)',}}/>
           <CardContent sx={{ justifyContent: 'flex-end' }}>

@@ -5,7 +5,7 @@ function CaseStudyThree() {
     return (
         <div className="text-3xl font-bold text-white w-full">
             <div className="w-full !h-full max-h-[450px] mb-6 justify-items-center">
-                <img src="/images/banner3.jpg" alt="Case Study Image" className="w-full h-full mb-6"/>
+                <img src="/images/banner3.webp" alt="Case Study Image" className="w-full h-full mb-6"/>
             </div>
             <div className="container max-w-3/4 w-full mx-auto">
                 <div className="flex flex-col gap-2 items-start mb-4 border-b border-[#343434] pb-4">
