@@ -8,7 +8,7 @@ const cardItems = [
     id: 1,
     title: "Student Monitoring App",
     description: "A mobile app connecting school and home with real-time child updates.",
-    image: "/images/card-image.jpg",
+    image: "/images/card-image.webp",
     alt: "image description",
     url: '/case-study/student-monitoring-app'
   },
@@ -16,7 +16,7 @@ const cardItems = [
     id: 2,
     title: "Food Delivery App",
     description: "A food delivery app redesign focused on transparent pricing and smarter support.",
-    image: "/images/card-image1.jpg",
+    image: "/images/card-image1.webp",
     alt: "image description 2",
     url: '/case-study/food-delivery-app'
   },
@@ -24,22 +24,14 @@ const cardItems = [
     id: 3,
     title: "Scan Track",
     description: "An employee management application for tracking and real-time performance insights.",
-    image: "/images/card-image2.jpg",
+    image: "/images/card-image2.webp",
     alt: "image description 2",
     url:  '/case-study/employee-management'
   },
-  // {
-  //   id: 4,
-  //   title: "Heading",
-  //   description: "UI/UX Designer with 3+ years of experience building intuitive, accessible web applications for B2B enterprises.",
-  //   image: "/images/card-image3.jpg",
-  //   alt: "image description 2",
-  //   url:  '/case-study/four'
-  // },
 ];
 function GradientCover() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 flex-wrap justify-center">
+    <div className="grid grid-cols-1 md:grid-cols-1 xl:grid-cols-3 gap-5 flex-wrap justify-center">
       {cardItems.map((cardItem) => (
        <Link to={cardItem.url} key={cardItem.id} style={{ textDecoration: 'none' }}>
         <Card key={cardItem.id} variant="outlined" sx={{ minHeight: '280px', width: '100%' }} className="!border-[#343434] cursor-pointer">

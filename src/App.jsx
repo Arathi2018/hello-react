@@ -8,6 +8,7 @@ import CaseStudyTwo from "./components/caseStudy/CaseStudytwo"
 import CaseStudyThree from "./components/caseStudy/CaseStudythree"
 import About from "./components/about"
 import Loader from "./components/loader"
+import PosterCard from "./components/PosterCard"
 
 function App() {
    const [loading, setLoading] = useState(true);
@@ -32,6 +33,8 @@ function App() {
             <div className="max-w-3/4 w-full mx-auto py-[20px]">
               <UserProfile/>
               <GradientCover />
+              <PosterCard/>
+
             </div>
           } />
           <Route path="/case-study/student-monitoring-app" element={<CaseStudyOne />} />
