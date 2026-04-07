@@ -23,7 +23,7 @@ const cardItems = [
   {
     id: 3,
     title: "Scan Track",
-    description: "An employee management application for tracking and real-time performance insights.",
+    description: "An employee management application for tracking & real-time performance insights.",
     image: "/images/card-image2.webp",
     alt: "image description 2",
     url:  '/case-study/employee-management'
