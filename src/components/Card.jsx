@@ -28,6 +28,14 @@ const cardItems = [
     alt: "image description 2",
     url:  '/case-study/employee-management'
   },
+  //  {
+  //   id: 4,
+  //   title: "Art Net",
+  //   description: "Craft e-commerce platform for easy browsing & better product discovery.",
+  //   image: "/images/card-image3.jpg",
+  //   alt: "image description 3",
+  //   url:  '/case-study/art-net'
+  // },
 ];
 function GradientCover() {
   return (

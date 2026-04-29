@@ -6,6 +6,7 @@ import GradientCover from "./components/Card"
 import CaseStudyOne from "./components/caseStudy/CaseStudyone"
 import CaseStudyTwo from "./components/caseStudy/CaseStudytwo"
 import CaseStudyThree from "./components/caseStudy/CaseStudythree"
+import CaseStudyFour from "./components/caseStudy/CaseStudyfour"
 import About from "./components/about"
 import Loader from "./components/loader"
 import PosterCard from "./components/PosterCard"
@@ -40,6 +41,7 @@ function App() {
           <Route path="/case-study/student-monitoring-app" element={<CaseStudyOne />} />
           <Route path="/case-study/food-delivery-app" element={<CaseStudyTwo />} />
           <Route path="/case-study/employee-management" element={<CaseStudyThree />} />
+          <Route path="/case-study/art-net" element={<CaseStudyFour />} />
           <Route path="/about" element={<About />} />
         </Routes>
     </>
