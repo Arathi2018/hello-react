@@ -17,6 +17,10 @@ function CaseStudyOne() {
                 <h6 className="text-[18px] text-[#999999] font-normal mb-2 mt-[35px]">Problem Statement</h6>
                 <p className="text-[16px] text-white font-normal text-base/7 mb-[35px]">Parents today are busier than ever, making it increasingly difficult to stay actively involved in their child's school life. Traditional communication methods physical diaries, notice boards, and in-person visits are slow, inconsistent, and easily missed. This disconnect leads to parents being unaware of important school events, academic progress, and daily activities, ultimately reducing parental engagement and impacting the child's overall development.</p>
 
+                
+                <h6 className="text-[18px] text-[#999999] font-normal mb-2 mt-[35px]">Impact</h6>
+                <p className="text-[16px] text-white font-normal text-base/7 mb-[35px]">The app provides a centralized, digital platform for seamless communication between schools and parents, ensuring that important updates are delivered in a timely and accessible manner.</p>
+
                 <h6 className="text-[18px] text-[#999999] font-normal mb-2">User Research</h6>
                 <p className="text-[16px] text-white font-normal text-base/7 mb-[35px]">To understand the core pain points, I focused on identifying the challenges faced by working parents and school administrators.<br/>
                 Key Findings:<br/>

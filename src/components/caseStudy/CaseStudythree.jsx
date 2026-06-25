@@ -16,6 +16,10 @@ function CaseStudyThree() {
                 <h6 className="text-[18px] text-[#999999] font-normal mb-2 mt-[35px]">Problem Statement</h6>
                 <p className="text-[16px] text-white font-normal text-base/7 mb-[35px]">Despite the availability of employee management tools, organizations still face challenges in effectively tracking daily tasks, understanding employee availability, and evaluating overall performance. The lack of a centralized system for managing priorities, leave, and project updates leads to poor visibility, miscommunication, and reduced productivity. These gaps make it difficult for managers to make informed decisions and for employees to stay aligned with their responsibilities.</p>
 
+                
+                <h6 className="text-[18px] text-[#999999] font-normal mb-2 mt-[35px]">Impact</h6>
+                <p className="text-[16px] text-white font-normal text-base/7 mb-[35px]">The app provides a centralized, digital platform for seamless communication between managers and employees, ensuring that important updates are delivered in a timely and accessible manner.</p>
+
                 <h6 className="text-[18px] text-[#999999] font-normal mb-2">User Research</h6>
                 <p className="text-[16px] text-white font-normal text-base/7 mb-[35px]">To validate these challenges, I conducted user interviews and surveys with employees, managers, and HR professionals to understand their daily workflow and pain points.<br/>
                 Key Findings:<br/>

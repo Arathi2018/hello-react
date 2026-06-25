@@ -16,6 +16,9 @@ function CaseStudyTwo() {
                 <h6 className="text-[18px] text-[#999999] font-normal mb-2 mt-[35px]">Problem Statement</h6>
                 <p className="text-[16px] text-white font-normal text-base/7 mb-[35px]">Despite the rapid growth of food delivery apps, two critical pain points continue to frustrate users and drive hidden charges that only surface at the final payment stage, and ineffective customer support that fails to resolve real user issues. These problems erode user trust, increase order abandonment, and leave users feeling deceived and unheard, ultimately pushing them toward competitor platforms.</p>
 
+                  <h6 className="text-[18px] text-[#999999] font-normal mb-2 mt-[35px]">Impact</h6>
+                <p className="text-[16px] text-white font-normal text-base/7 mb-[35px]">By introducing upfront pricing visibility and contextual customer support, the redesign reduces checkout uncertainty, improves issue resolution, and helps users order with greater confidence and trust.</p>
+
                 <h6 className="text-[18px] text-[#999999] font-normal mb-2">User Research</h6>
                 <p className="text-[16px] text-white font-normal text-base/7 mb-[35px]">To validate these pain points, I conducted user interviews and surveys with frequent food delivery app users to understand their core frustrations.<br/>
                 Key Findings:<br/>

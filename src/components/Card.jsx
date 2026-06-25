@@ -6,16 +6,16 @@ import { Link } from 'react-router-dom';
 const cardItems = [
   {
     id: 1,
-    title: "Student Monitoring App",
-    description: "A mobile app connecting school and home with real-time child updates.",
+    title: "Stay Close to School",
+    description: "A mobile app keeping parents informed with live updates on their child's day.",
     image: "/images/card-image.webp",
     alt: "image description",
     url: '/case-study/student-monitoring-app'
   },
   {
     id: 2,
-    title: "Food Delivery App",
-    description: "A food delivery app redesign focused on transparent pricing and smarter support.",
+    title: "Reducing Checkout Friction in Food Delivery Apps",
+    description: "A food delivery app improving trust through clear costs and easy support.",
     image: "/images/card-image1.webp",
     alt: "image description 2",
     url: '/case-study/food-delivery-app'
