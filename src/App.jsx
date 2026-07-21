@@ -10,6 +10,7 @@ import CaseStudyFour from "./components/caseStudy/CaseStudyfour"
 import About from "./components/about"
 import Loader from "./components/loader"
 import PosterCard from "./components/PosterCard"
+import Footer from "./components/Footer"
 
 function App() {
    const [loading, setLoading] = useState(true);
@@ -31,11 +32,11 @@ function App() {
        <Navbar/>
         <Routes>
           <Route path="/" element={
-            <div className="max-w-3/4 w-full mx-auto py-[20px]">
+            <div className="">
               <UserProfile/>
               <GradientCover />
               <PosterCard/>
-
+              <Footer/>
             </div>
           } />
           <Route path="/case-study/student-monitoring-app" element={<CaseStudyOne />} />

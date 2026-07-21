@@ -1,26 +1,22 @@
 import { Link } from "react-router-dom"
+import { motion } from "framer-motion"
 
 function PosterCard() {
     return (
-        <div className="mt-[20px]">
-            <div class="grid grid-cos-2 lg:grid-cols-3 gap-4">
-                <div class="lg:col-span-2 text-[#FFFFFF]">
-                    <a href="https://www.behance.net/gallery/230588691/Social-Media-Poster-Designs" target="_blank" rel="noopener noreferrer" className="border border-[#9999994f] cursor-pointer rounded-[20px] p-[5px] block">
-                            <img src="/images/poster2.jpg" loading="lazy"  width={300} height={300} className="w-full h-[300px] object-cover rounded-[15px]" />
-                        <div className="bg-[#1A1A1A] rounded-[15px] mt-2 p-3 flex items-center justify-center">
-                            <h6 className="text-[#FFFFFF] font-normal">View Posters</h6>
-                        </div>
-                    </a>
-                </div>
-                <div class="text-[#FFFFFF]">
-                     <a href="https://www.behance.net/arathias" target="_blank" rel="noopener noreferrer" className="border border-[#9999994f] cursor-pointer rounded-[20px] p-[5px] block">
-                            <img src="/images/Behance-Lottie-Animation.gif" loading="lazy"  width={300} height={300} className="w-[100%] lg:w-100 h-[300px] object-none rounded-[15px]" />
-                        <div className="bg-[#1A1A1A] rounded-[15px] mt-2 p-3 flex items-center justify-center">
-                            <h6 className="text-[#FFFFFF] font-normal">View More</h6>
-                        </div>
-                    </a>
-                </div>
-            </div>
+        <div className="py-[50px] px-[30px] my-[20px] mb-[75px] overflow-hidden">
+            <h2 className="text-[52px] font-semibold text-white heading-font text-center mb-[8px]">Other Design</h2>
+            <p className="text-[16px] text-white font-normal text-center text-base/6 mb-[57px]">A glimpse into the digital experiences I’ve designed</p>
+            <motion.div animate={{ x: ["0%", "-50%"] }} transition={{duration: 10, repeat: Infinity, ease: "linear", repeatType: "loop"}} className="flex gap-2 shrink-0 justify-around ">
+                <img className="w-[100%] h-[100%] max-h-[200px] rounded-xl object-cover" src="/images/behance-4.png"></img>
+                <img className="w-[100%] h-[100%] max-h-[200px] rounded-xl object-cover " src="/images/behance-1.png"></img>
+                <img className="w-[100%] h-[100%] max-h-[200px] rounded-xl object-cover" src="/images/behance-2.png"></img>
+                <img className="w-[100%] h-[100%] max-h-[200px] rounded-xl object-cover " src="/images/behance-5.jpg"></img>
+                <img className="w-[100%] h-[100%] max-h-[200px] rounded-xl object-cover" src="/images/behance-7.jpg"></img>
+                <img className="w-[100%] h-[100%] max-h-[200px] rounded-xl object-cover" src="/images/behance-3.png"></img>
+                <img className="w-[100%] h-[100%] max-h-[200px] rounded-xl object-cover" src="/images/behance-6.png"></img>
+                <img className="w-[100%] h-[100%] max-h-[200px] rounded-xl object-cover" src="/images/behance-8.jpg"></img>
+                <img className="w-[100%] h-[100%] max-h-[200px] rounded-xl object-cover" src="/images/behance-9.jpg"></img>
+            </motion.div>
         </div>
     )
 }

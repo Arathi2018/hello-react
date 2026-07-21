@@ -4,3 +4,7 @@ body{
     background-color: #000000;
      font-family: 'Inter', sans-serif;
 }
+.heading-font{
+    font-family: 'Alumni Sans', sans-serif;
+    line-height: 54px;
+}
